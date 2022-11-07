@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x,m,z;
+    cin>>x>>m;
+    z=x/m;
+    cout<<z;
+    
+    return 0;
+}
