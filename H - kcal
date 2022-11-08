@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    double x,y;
+    double z;
+    cin>>x>>y;
+    z=x*y/100;
+    cout<<z;
+
+    return 0;
+}
