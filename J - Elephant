@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,stp=0;
+    cin>>x;
+    stp=x/5;
+    if(x%5!=0) //x>0 .
+    {
+        stp++;
+    }
+    cout<<stp;
+
+    return 0;
+}
