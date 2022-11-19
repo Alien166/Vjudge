@@ -14,3 +14,19 @@ int main()
 
     return 0;
 }
+//anthor solution
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ch; cin>>ch;
+    string all ="aeiou";
+    if(all.find(ch)!=-1){
+        cout<<"vowel";
+    }
+    else{
+        cout<<"consonant";
+    }
+
+    return 0;
+}
