@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+int n;
+char c;
+for(int i=1;i<=26;i++)
+{
+     cin>>n;
+     if(n>=1&&n<=26)
+     {
+         c=96+n;
+         cout<<c;
+     }
+}
+    return 0;
+}
