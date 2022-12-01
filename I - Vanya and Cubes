@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int x,current=2,level=1,res=0;cin>>x;
+    while (1)
+    {
+        if(x>=level)
+        {
+            ++res; //increament numbers plus 1
+            x -=level; // decreament given number from levels
+            level +=current; //every case will be increament 2
+            ++current; //increament current each case
+        }
+        else {
+            break;
+        }
+    }
+    cout<<res;
+
+    return 0;
+}
