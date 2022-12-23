@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+    {
+        int n;
+        cin >> n;
+        string s;
+        cin >> s;
+        for (char i = 'a'; i <= 'z';) {
+            bool check = 0;
+            for (int j = 0; j < n; ++j) {
+                s[j] = tolower(s[j]);
+                if (s[j] == i) {
+                    check = 1;
+                    ++i;
+                    break;
+
+                }
+            }
+            if (check == false) {
+                cout << "NO" << endl;
+                return 0;
+            }
+        }
+        cout << "YES" << endl;
+
+        return 0;
+}
