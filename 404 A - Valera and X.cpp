@@ -21,8 +21,7 @@ int main()
             }
         }
     }
-    if(x.size()==1 && y.size()==1 && *x.begin() != *y.begin())
-    {
+    if(x.size()==1 && y.size()==1 && *x.begin() != *y.begin()){
        cout<<"YES"<<endl;
     }
     else{
